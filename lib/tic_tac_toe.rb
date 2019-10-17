@@ -120,5 +120,6 @@ class TicTacToe
       return "O"
     elsif @board[won?[0]] == " "
       return nil
+    end
   end
 end
