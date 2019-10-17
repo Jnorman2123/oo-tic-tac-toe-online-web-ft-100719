@@ -113,11 +113,11 @@ class TicTacToe
     end
   end
 
-  # def winner
-  #   WIN_COMBINATIONS.each do |win_combo|
-  #     if win_combo[0] = "X" && win_combo[1] = "X" && win_combo[2] == "X"
-  #       "X"
-  #     else
-  #   end
-  end
+  # # def winner
+  # #   WIN_COMBINATIONS.each do |win_combo|
+  # #     if win_combo[0] = "X" && win_combo[1] = "X" && win_combo[2] == "X"
+  # #       "X"
+  # #     else
+  # #   end
+  # end
 end
