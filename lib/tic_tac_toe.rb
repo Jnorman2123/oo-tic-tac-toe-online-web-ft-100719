@@ -102,7 +102,7 @@ class TicTacToe
       true
     elsif won?
       false
-    elsif won? == false && full? == false 
+    elsif won? == false && full? == false
       false
     end
   end
