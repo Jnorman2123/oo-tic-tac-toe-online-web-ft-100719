@@ -114,7 +114,7 @@ class TicTacToe
   end
 
   def winner
-    if won?[0] == "X"
+    if won?[1] == "X"
       return "X"
     elsif won?[0] == "O"
       return "O"
