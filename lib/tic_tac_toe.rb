@@ -96,4 +96,8 @@ class TicTacToe
       false
     end
   end
+
+  def draw?
+
+  end
 end
