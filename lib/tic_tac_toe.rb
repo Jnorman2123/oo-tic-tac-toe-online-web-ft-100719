@@ -122,4 +122,8 @@ class TicTacToe
       return "O"
     end
   end
+
+  def play
+
+  end
 end
