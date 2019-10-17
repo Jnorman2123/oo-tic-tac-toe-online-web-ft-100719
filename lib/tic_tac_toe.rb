@@ -70,9 +70,16 @@ class TicTacToe
   end
 
   def won?
-    # x_moves = []
-    # o_moves = []
+    WIN_COMBINATIONS.each do |win_combo|
+      move_1 = win_combo[0]
+      move_2 = win_combo[1]
+      move_3 = win_combo[2]
 
+      position_1 = @board[move_1]
+      position_2 = @board[move_2]
+      position_3 = @board[move_3]
+
+      position_1 == position_2 == position_3 && position_taken?(move_1)
+    end 
   end
-
 end
