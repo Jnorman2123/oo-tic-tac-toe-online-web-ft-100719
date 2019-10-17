@@ -74,7 +74,7 @@ class TicTacToe
     o_moves = []
     @board.each_with_index do |token, index|
       if token == "X"
-        x_moves << input_to_index
+        x_moves << index
       elsif token == "O"
         o_moves << index
     end
