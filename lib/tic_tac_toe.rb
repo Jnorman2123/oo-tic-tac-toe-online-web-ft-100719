@@ -80,12 +80,12 @@ class TicTacToe
       end
     end
     WIN_COMBINATIONS.each do |win_combo|
-      if (win_combo - x_moves).empty? == true 
+      if (win_combo - x_moves).empty? == true
         return win_combo
-      elsif (win_combo - o_moves).empty? == true 
-        return win_combo 
-      else 
+      elsif (win_combo - o_moves).empty? == true
+        return win_combo
+      else
         return false
-    end 
+    end
   end
 end
