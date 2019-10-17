@@ -114,12 +114,11 @@ class TicTacToe
   end
 
   def winner
-    if won?.all? {|move| move == "X"}
+    if @board[won?][0] == "X"
       return "X"
-    elsif won?.all? {|move| move == "O"}
+    elsif @board[won?][0] == "O"
       return "O"
-    else
+    else 
       nil
-    end
   end
 end
