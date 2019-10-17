@@ -80,6 +80,6 @@ class TicTacToe
       position_3 = @board[move_3]
 
       position_1 == position_2 == position_3 && position_taken?(move_1)
-    end 
+    end
   end
 end
