@@ -80,6 +80,7 @@ class TicTacToe
       end
       x_moves
       o_moves
+      binding.pry
     end
   end
 end
