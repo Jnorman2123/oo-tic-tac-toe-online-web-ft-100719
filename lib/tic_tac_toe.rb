@@ -91,8 +91,8 @@ class TicTacToe
 
   def full?
     if @board.all? {|position| position == "X" || position == "O"}
-      true 
-    else 
+      true
+    else
       false
   end
 end
