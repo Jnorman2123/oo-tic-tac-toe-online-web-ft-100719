@@ -81,9 +81,9 @@ class TicTacToe
     end
     WIN_COMBINATIONS.each do |win_combo|
       if (win_combo - x_moves).empty? == true
-        win_combo.join
+        return win_combo.join
       elsif (win_combo - o_moves).empty? == true
-        win_combo.join
+        return win_combo.join
       else
         return false
       end
