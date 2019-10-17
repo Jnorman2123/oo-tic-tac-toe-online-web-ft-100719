@@ -114,9 +114,9 @@ class TicTacToe
   end
 
   def winner
-    if won?.all? == "X"
+    if won?.all? { |token| token == "X"}
       return "X"
-    elsif won?.all? == "O"
+    elsif won?.all? {|token| token == "O"}
       return "O"
     end
   end
