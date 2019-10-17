@@ -77,6 +77,7 @@ class TicTacToe
         x_moves << index
       elsif token == "O"
         o_moves << index
+      end
     end
   end
 end
