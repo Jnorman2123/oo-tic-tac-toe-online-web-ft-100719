@@ -70,12 +70,13 @@ class TicTacToe
   end
 
   def won?
-    WIN_COMBINATIONS.each do |win_combo|
-      if win_combo.all? { |move| win_combo[move] == "X" or win_combo[move] == "O"}
-        return win_combo
-      else
-        return false
-      end
+    x_moves = []
+    o_moves = []
+    @board.each_with_index do |token, index|
+      if token == "X"
+        x_moves << input_to_index
+      elsif token == "O"
+        o_moves << index
     end
   end
 end
