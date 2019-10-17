@@ -114,10 +114,14 @@ class TicTacToe
   end
 
   def winner
-  if @board[won?].all? { |token| token == "X"}
-      return "X"
-    elsif @board[won?].all? {|token| token == "O"}
-      return "O"
+    won?.each do |move| 
+      if @board.move == "X"
+        return "X"
+      elsif @board.move == "O"
+        return "O"
+      end
+    end 
+      
     end
   end
 end
