@@ -84,9 +84,8 @@ class TicTacToe
         return win_combo.join
       elsif (win_combo - o_moves).empty? == true
         return win_combo.join
-      else
-        return false
       end
+      return false
     end
   end
 end
