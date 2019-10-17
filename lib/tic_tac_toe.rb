@@ -81,9 +81,9 @@ class TicTacToe
     end
     WIN_COMBINATIONS.each do |win_combo|
       if (win_combo - x_moves).empty? == true
-        return win_combo
+        win_combo
       elsif (win_combo - o_moves).empty? == true
-        return win_combo
+        win_combo
       end
     end
     false
@@ -113,9 +113,11 @@ class TicTacToe
     end
   end
 
-  def winner
-    if won? == "X"
-      "X"
-    end
+  # def winner
+  #   WIN_COMBINATIONS.each do |win_combo|
+  #     if win_combo[0] = "X" && win_combo[1] = "X" && win_combo[2] == "X"
+  #       "X"
+  #     else 
+  #   end 
   end
 end
