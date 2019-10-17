@@ -122,3 +122,6 @@ class TicTacToe
     end
   end
 end
+
+
+new = TicTacToe.new
