@@ -79,7 +79,7 @@ class TicTacToe
       position_2 = @board[move_2]
       position_3 = @board[move_3]
 
-      position_1 == position_2 == position_3 && position_taken?(move_1)
+      position_1 == position_2 && position_2 == position_3 && position_taken?(move_1)
     end
   end
 end
