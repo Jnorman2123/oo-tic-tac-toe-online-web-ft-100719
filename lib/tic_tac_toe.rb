@@ -118,6 +118,6 @@ class TicTacToe
       return "X"
     elsif won?.all? == "O"
       return "O"
-    end 
+    end
   end
 end
