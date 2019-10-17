@@ -100,9 +100,7 @@ class TicTacToe
   def draw?
     if full? == true && won? == false
       true
-    elsif won?
-      false
-    elsif won? == false && full? == false
+    else
       false
     end
   end
