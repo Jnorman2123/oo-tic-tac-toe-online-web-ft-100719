@@ -119,7 +119,7 @@ class TicTacToe
         return "X"
       elsif win_combo[0] = "O" && win_combo[1] = "O" && win_combo[2] == "O"
         return "O"
-      end 
+      end
     end
   end
 end
