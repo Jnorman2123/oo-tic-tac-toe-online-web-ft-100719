@@ -71,7 +71,7 @@ class TicTacToe
 
   def won?
     WIN_COMBINATIONS.each do |win_combo|
-      if win_combo.all? { |move| @board[move] == "X" or @board[move] == "O"}
+      if win_combo.all? { |move| win_combo[move] == "X" or win_combo[move] == "O"}
         return win_combo
       else
         return false
