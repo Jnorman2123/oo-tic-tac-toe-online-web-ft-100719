@@ -114,6 +114,10 @@ class TicTacToe
   end
 
   def winner
-
+    if WIN_COMBINATIONS == "X"
+      "X"
+    elsif WIN_COMBINATIONS == "O"
+      "O"
+    end 
   end
 end
