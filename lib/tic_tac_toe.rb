@@ -86,6 +86,6 @@ class TicTacToe
         return win_combo.join
       end
     end
-    return false
+    false
   end
 end
