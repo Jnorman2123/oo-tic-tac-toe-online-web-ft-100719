@@ -114,12 +114,11 @@ class TicTacToe
   end
 
   def winner
-    won?.each do |move|
-      if @board[move] == "X"
-        return "X"
-      elsif @board[move] == "O"
-        return "O"
-      end
+    if won?[0] == "X"
+      return "X"
+    elsif won?[0] == "O"
+      return "O"
     end
+    nil
   end
 end
