@@ -118,7 +118,8 @@ class TicTacToe
       return "X"
     elsif won?[0] == "O"
       return "O"
+    else 
+      nil
     end
-    nil
   end
 end
