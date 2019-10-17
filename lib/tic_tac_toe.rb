@@ -74,7 +74,7 @@ class TicTacToe
       if win_combo.all? { |move| @board[move] == "X" or @board[move] == "O"}
         return win_combo
       else
-        false
+        return false
       end
     end
   end
