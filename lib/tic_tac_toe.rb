@@ -118,6 +118,6 @@ class TicTacToe
       "X"
     elsif WIN_COMBINATIONS == "O"
       "O"
-    end 
+    end
   end
 end
